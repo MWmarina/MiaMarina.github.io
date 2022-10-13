@@ -1,0 +1,147 @@
+	body{
+	 background-color: #a38e5d;
+	 font-family: "Lobster", serif;
+}
+	header{
+		background-color:#595753;
+		margin: 0;
+	}
+	header h2{
+		color: #f0eadd;
+		margin: 0;
+		padding: 40px;
+		font-size: 30px;
+		font-family: "Sofia", sans-serif;
+		text-shadow: 3px 3px 3px #ababab;
+	}
+	nav ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding-left:30px ;
+		  overflow: hidden;
+		  background-color: #333;
+		  font-size: 20px;
+		}
+
+	nav li {
+		  float: left;
+		}
+
+	nav li a {
+		  display: block;
+		  color: white;
+		  text-align: center;
+		  padding: 20px 16px;
+		  text-decoration: none;
+		}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+	.text2{
+	font-size: 40px;
+	text-decoration-line: overline underline;	
+	}
+	.text5{
+	font-size: 0px;	
+	}
+	.text1 {
+	font-size: 20px;
+	color: #f0eadd;
+	text-align: center;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	font-family: "Trirong", serif;
+	}	
+	footer{
+	background-color:#595753;
+	padding: 30px;
+	font-size: 30px;
+
+	margin: 0;
+	}
+		footer p{
+			color: #f0eadd;
+			margin: 0;
+			font-family: "Sofia", sans-serif;
+		}
+	.me{
+	   width:500px;
+	   margin-right: 10px;
+		 margin-left: 10px;
+		 margin-top:20px;
+		 margin-bottom:20px;
+		 
+		 padding: 20px;
+	   }
+	.pic{
+	    width:300px;	
+		border-radius: 50%;
+		padding: 20px;
+	 }
+	 .dan{
+	    width:300px;	
+		border-radius: 50%;
+		padding: 20px;
+	 }
+	 .vid{
+	     margin-right: 10px;
+		 margin-left: 10px;
+		 margin-top:50px;
+		 margin-bottom:10px;
+		 
+	 }
+	.sm{
+	    width:400px;	
+		border-radius: 50%;
+		padding: 10px;
+	 }
+	 .inst{
+	    border-radius: 50%;
+		width: 60px;
+		margin-right: 10px;
+		 margin-left: 10px;			 
+		
+	 }
+	#container {
+		width: 1200px;
+		margin: 0 auto;
+	 }
+	 .two-column{
+		display: grid;
+		grid-template-columns: 50% 50%;
+		padding: 20px;	
+			background-color:#f0eadd ;
+	 }
+	 .two-column div{
+		 margin-right: 10px;
+		 margin-left: 10px;
+		 background-color: #473118;
+		 text-align: center;
+	 }
+	.btn {
+		  background-color: #470620;
+		  border: none;
+		  color: white;
+		  padding: 12px 30px;
+		  cursor: pointer;
+		  font-size: 20px;
+	}
+	.btn:hover {
+		background-color: #471306;
+	}	
+	 	 .three-column{
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		padding: 40px;
+		background-color: #e0b8c5;
+		 }
+		.three-column div{
+		 background-color: #473118;
+		 margin-right: 10px;
+		 margin-left: 10px;
+		 font-family: "Trirong", serif;
+		 text-align: center;
+	 }
